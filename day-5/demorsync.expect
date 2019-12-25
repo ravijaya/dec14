@@ -1,0 +1,9 @@
+#!/usr/bin/expect
+
+spawn ./demorsync.sh  -s /home/ravijaya/ -p '*.txt' -t /tmp/catch23/
+
+set timeout 60
+expect "training@localhost's password:*"
+send "training\r"
+
+

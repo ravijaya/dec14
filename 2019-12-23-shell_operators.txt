@@ -1,0 +1,31 @@
+arthemtic operator 
+	+, -, *, /, %
+
+Increment / Decrement 
+	++, --
+
+Relational operators 
+	==, !=, >, <, >=, <=
+
+logical operator 
+	&&, ||, !  (logical not)
+
+conditional operator
+	condition? true-part : false-part
+
+Exponentiation 
+	**  2 ** 3
+
+Bitwise 
+	& (and)
+        | (or)
+	^  (ex-or)
+	~  (bitwise-not)
+	>> right shift
+	<< left shift 
+
+Short-hand assignment 
+	+=, -=, *=, %=, /=
+	|=, ^, &=, ~=, >>=, <<=
+
+ 	

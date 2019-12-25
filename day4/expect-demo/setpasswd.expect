@@ -1,0 +1,29 @@
+#!/usr/bin/expect
+
+if {$argc!=2} {
+   send_user "usage: $argv0 username password \n"
+   exit
+}
+# script must be run by root user
+set whoami [exec id -u]
+if {$whoami!=0} {
+   send_user "You must be a root user to run this script\n"
+   exit
+}
+#
+set timeout -1
+match_max 100000
+# stopre password
+set password [lindex $argv 1]
+# username
+set user [lindex $argv 0]
+# opem shell
+spawn $env(SHELL)
+# send passwd command
+send -- "passwd $user\n"
+expect "assword:"
+send "$password\n"
+expect  "assword:"
+send "$password\n"
+send "\n"
+expect eof

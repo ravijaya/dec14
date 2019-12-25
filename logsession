@@ -1,0 +1,10 @@
+Script started on 2019-12-12 16:02:04+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="84" LINES="27"]
+(base) ]0;ravijaya@debian: ~/Trainings/ShellScripting-Sony[01;32mravijaya@debian[00m:[01;34m~/Trainings/ShellScripting-Sony[00m$ ls[K[Kfile logsession 
+logsession: empty
+(base) ]0;ravijaya@debian: ~/Trainings/ShellScripting-Sony[01;32mravijaya@debian[00m:[01;34m~/Trainings/ShellScripting-Sony[00m$ ls
+logsession  [0m[01;35mspecial-variables.png[0m  userlist.sh
+(base) ]0;ravijaya@debian: ~/Trainings/ShellScripting-Sony[01;32mravijaya@debian[00m:[01;34m~/Trainings/ShellScripting-Sony[00m$ date 
+Thu Dec 12 16:02:32 IST 2019
+(base) ]0;ravijaya@debian: ~/Trainings/ShellScripting-Sony[01;32mravijaya@debian[00m:[01;34m~/Trainings/ShellScripting-Sony[00m$ exit
+
+Script done on 2019-12-12 16:02:34+05:30 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,9 @@
+find: ‘/etc/cups/ssl’: Permission denied
+find: ‘/etc/chatscripts’: Permission denied
+/etc/cron.daily/passwd
+/etc/passwd
+find: ‘/etc/ppp/peers’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+/etc/pam.d/passwd
+find: ‘/etc/ssl/private’: Permission denied

@@ -1,0 +1,24 @@
+Introduction to Sed
+
+	-Sed is the u ltimate stream editor.
+
+	-sed, a special editor for modifying files au tomatically. 
+	
+	-If you want to write a program to make changes in a file, sed is the tool to use.
+
+
+Addresses and Ranges of Text
+
+	Specifying a line by its number.
+	Specifying a range of lines by number.
+	All lines containing a pattern.
+	All lines from the beginning of a file to a regular expression
+	All lines from a regular expression to the end of the file.
+	All lines between two regular expressions.
+
+Syntax:-
+	sed restriction command
+
+
+
+

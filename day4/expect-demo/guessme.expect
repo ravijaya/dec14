@@ -1,0 +1,27 @@
+#!/usr/bin/expect
+
+set timeout -1
+spawn ./guessme.sh
+set chance 1
+set start 0
+set end 1000
+set value  [expr ($end - $start)/2]
+while {$chance <= 10} {
+	expect "enter the value :"
+	send "$value\r"
+	
+	expect "Hint: $value: greater\r" {
+		set end $value
+		set value  [expr $start + (($end - $start)/2)]
+	}  "Hint: $value: lesser\r" {
+		set start $value
+		set value [expr $start + (($end - $start)/2)]
+	}  "*you won*" {
+		break
+	}  
+	incr chance
+	
+	# puts "attempt : $chance"
+}
+
+expect eof

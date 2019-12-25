@@ -1,11 +1,10 @@
 #!/bin/bash
-
+# handle options & options arguments
 usage()
 {
   echo "Usage: $0 [-s|-r] [ -d DB_DUMP ] [ -f TARBALL ]"
   exit 2
 }
-
 
 while getopts 'srd:f:?h' c
 do
@@ -18,10 +17,8 @@ do
    esac
 done
 
-
 echo $OPTIND
 echo "$@"
 shift $(($OPTIND-1))
 echo "$@"  # this will given all the arguments after the options
-
 

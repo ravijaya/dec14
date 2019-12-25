@@ -1,0 +1,5 @@
+alias c='clear'
+alias update='apt-get update && apt-get upgrade'
+alias ports='netstat -tulpn'
+alias vi='vim'
+

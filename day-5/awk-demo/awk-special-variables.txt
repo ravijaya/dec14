@@ -1,0 +1,17 @@
+The following special variables are builtin in awk:
+
+FS : acts as field separator to splits awk input lines in fields. I can be a single character, FS="c" ; a null string, FS="" (then each individual character becomes a separate field); a regular expression without slashes, FS="re" ; FS=" " stands for runs of spaces and tabs and is defaults value.
+
+NF : the number of fields to read;
+
+$1 , $2 , ...: 1st field, 2nd field. etc. of the current input line,
+
+$0 : current input line;
+
+NR : current put line number.
+
+OFS : string to collate fields when printed.
+
+ORS : output record separator, by default a newline.
+
+RS : Input line (record) separator. Defaults to newline. Set as FS .

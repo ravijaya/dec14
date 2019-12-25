@@ -1,0 +1,2 @@
+Write a shell command that associates the file descriptor 2 to a file called log.txt and send fd # 2 to a log.txt instead of the screen. Then associates fd # 1 with the file associated with the fd # 2.
+Write a shell script to open /etc/passwd file using fd (input) and copy the same to /tmp/passwd.output file using file descriptor (output).

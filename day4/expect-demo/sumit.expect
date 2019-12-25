@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+ 
+set timeout -1
+ 
+spawn bash sumit.sh
+
+expect "enter the value 1:"
+send "22\r"
+
+expect "enter the value 2:"
+send "33\r"
+ 
+expect eof
